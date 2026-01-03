@@ -1,3 +1,7 @@
+import pandas as pd
+info_path="/data/work/CXR/datasets/PadChest/PADCHEST_chest_x_ray_images_labels_160K_01.02.19.csv"
+info=pd.read_csv(info_path)
+
 =======================info columns======================
 
 Index(['Unnamed: 0', 'ImageID', 'ImageDir', 'StudyDate_DICOM', 'StudyID',
